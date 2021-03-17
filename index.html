@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Css/Styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
+    <title>Grid-calculator</title>
+</head>    
+    <body>
+        <div class="Container">
+
+        <header class="title">CSS CALCULATOR</header>
+        <main id="display">1234</main>
+        <section id="ac" onclick="clearScr()">AC</section>
+        <section id="del" onclick="delRez()">DEL</section>
+        <section id="div" onclick="sendNum('/')">/</section>
+        <section id="one" onclick="sendNum('1')">1</section>
+        <section id="two" onclick="sendNum('2')">2</section>
+        <section id="three" onclick="sendNum('3')">3</section>
+        <section id="mult" onclick="sendNum('*')">*</section>
+        <section id="four" onclick="sendNum('4')">4</section>
+        <section id="five" onclick="sendNum('5')">5</section>
+        <section id="six" onclick="sendNum('6')">6</section>
+        <section id="plus" onclick="sendNum('+')">+</section>
+        <section id="seven" onclick="sendNum('7')">7</section>
+        <section id="eight" onclick="sendNum('8')">8</section>
+        <section id="nine" onclick="sendNum('9')">9</section>
+        <section id="minus" onclick="sendNum('-')">-</section>
+        <section id="coma" onclick="sendNum('.')">.</section>
+        <section id="zero" onclick="sendNum('0')">0</section>
+        <section id="equal" onclick="equalTo()">=</section>
+
+        </div>
+
+        <script src="js/calculator.js"></script>
+
+    </body>
+</html>
